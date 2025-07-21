@@ -43,8 +43,11 @@ This project provides an interactive visualization and analysis of a Convolution
 
 3. **Visualizations**
    - **Activation Maps:** See how different layers respond to input images, from basic edges to complex object parts.
+   - ![Activations Maps](images/activations.png)
    - **Logit Bar Charts:** Inspect the model's confidence and class predictions.
+   - ![Bar Charts](images/fc.png)
    - **Grad-CAM:** Understand which image regions drive the model's decisions.
+   - ![Grad Cam](images/gradcam.png)
 
 ## Example Visualizations
 - **Activation Maps:**
@@ -62,4 +65,4 @@ This project provides an interactive visualization and analysis of a Convolution
 - Grad-CAM implementation inspired by research on neural network interpretability.
 
 ## License
-This project is for educational and research purposes. Please cite appropriately if used in academic work.
+This project is for educational and research purposes.
