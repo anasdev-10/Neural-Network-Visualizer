@@ -29,11 +29,15 @@ This project provides an interactive visualization and analysis of a Convolution
    - The dataset is automatically downloaded when running the notebook.
 
 ## Usage
-
-1. **Open the Notebook**
+0. **Clone the repository**
+    ```bash
+     git clone https://github.com/anasdev-10/Neural-Network-Visualizer.git
+     cd Neural-Network-Visualizer
+     ```
+2. **Open the Notebook**
    - Launch Jupyter Notebook or JupyterLab and open `nn-visualizer.ipynb`.
 
-2. **Run All Cells**
+3. **Run All Cells**
    - Execute the cells sequentially to:
      - Set up the data pipeline
      - Load and modify the ResNet-18 model
@@ -41,7 +45,7 @@ This project provides an interactive visualization and analysis of a Convolution
      - Register hooks for activations and gradients
      - Visualize feature maps and Grad-CAM heatmaps
 
-3. **Visualizations**
+4. **Visualizations**
    - **Activation Maps:** See how different layers respond to input images, from basic edges to complex object parts.
    - ![Activations Maps](images/activations.png)
    - **Logit Bar Charts:** Inspect the model's confidence and class predictions.
